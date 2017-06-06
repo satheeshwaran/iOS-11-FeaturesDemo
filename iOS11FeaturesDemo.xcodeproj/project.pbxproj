@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB3E68E31EE6F5DE009AAAE4 /* DemoHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3E68E21EE6F5DE009AAAE4 /* DemoHomeTableViewController.swift */; };
 		AB48C9D21EE6EBF300089D60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB48C9D11EE6EBF300089D60 /* AppDelegate.swift */; };
 		AB48C9D41EE6EBF300089D60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB48C9D31EE6EBF300089D60 /* ViewController.swift */; };
 		AB48C9D71EE6EBF300089D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB48C9D51EE6EBF300089D60 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		AB48C9DC1EE6EBF300089D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB48C9DA1EE6EBF300089D60 /* LaunchScreen.storyboard */; };
 		AB48C9E71EE6EBF300089D60 /* iOS11FeaturesDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB48C9E61EE6EBF300089D60 /* iOS11FeaturesDemoTests.swift */; };
 		AB48C9F21EE6EBF300089D60 /* iOS11FeaturesDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB48C9F11EE6EBF300089D60 /* iOS11FeaturesDemoUITests.swift */; };
+		AB48CA021EE6F35C00089D60 /* FileProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB48CA011EE6F35C00089D60 /* FileProviderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB3E68E21EE6F5DE009AAAE4 /* DemoHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoHomeTableViewController.swift; sourceTree = "<group>"; };
 		AB48C9CE1EE6EBF300089D60 /* iOS11FeaturesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS11FeaturesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB48C9D11EE6EBF300089D60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB48C9D31EE6EBF300089D60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		AB48C9ED1EE6EBF300089D60 /* iOS11FeaturesDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS11FeaturesDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB48C9F11EE6EBF300089D60 /* iOS11FeaturesDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS11FeaturesDemoUITests.swift; sourceTree = "<group>"; };
 		AB48C9F31EE6EBF300089D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB48CA011EE6F35C00089D60 /* FileProviderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProviderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				AB48C9D11EE6EBF300089D60 /* AppDelegate.swift */,
 				AB48C9D31EE6EBF300089D60 /* ViewController.swift */,
+				AB48CA011EE6F35C00089D60 /* FileProviderViewController.swift */,
+				AB3E68E21EE6F5DE009AAAE4 /* DemoHomeTableViewController.swift */,
 				AB48C9D51EE6EBF300089D60 /* Main.storyboard */,
 				AB48C9D81EE6EBF300089D60 /* Assets.xcassets */,
 				AB48C9DA1EE6EBF300089D60 /* LaunchScreen.storyboard */,
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB48C9D41EE6EBF300089D60 /* ViewController.swift in Sources */,
+				AB48CA021EE6F35C00089D60 /* FileProviderViewController.swift in Sources */,
 				AB48C9D21EE6EBF300089D60 /* AppDelegate.swift in Sources */,
+				AB3E68E31EE6F5DE009AAAE4 /* DemoHomeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +532,7 @@
 				AB48C9F81EE6EBF300089D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB48C9F91EE6EBF300089D60 /* Build configuration list for PBXNativeTarget "iOS11FeaturesDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +541,7 @@
 				AB48C9FB1EE6EBF300089D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB48C9FC1EE6EBF300089D60 /* Build configuration list for PBXNativeTarget "iOS11FeaturesDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +550,7 @@
 				AB48C9FE1EE6EBF300089D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

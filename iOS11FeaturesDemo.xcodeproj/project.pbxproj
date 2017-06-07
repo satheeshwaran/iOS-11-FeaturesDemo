@@ -16,6 +16,7 @@
 		AB48C9E71EE6EBF300089D60 /* iOS11FeaturesDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB48C9E61EE6EBF300089D60 /* iOS11FeaturesDemoTests.swift */; };
 		AB48C9F21EE6EBF300089D60 /* iOS11FeaturesDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB48C9F11EE6EBF300089D60 /* iOS11FeaturesDemoUITests.swift */; };
 		AB48CA021EE6F35C00089D60 /* FileProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB48CA011EE6F35C00089D60 /* FileProviderViewController.swift */; };
+		AB971B181EE7CA0B005113DB /* DragDropTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB971B171EE7CA0B005113DB /* DragDropTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		AB48C9F11EE6EBF300089D60 /* iOS11FeaturesDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS11FeaturesDemoUITests.swift; sourceTree = "<group>"; };
 		AB48C9F31EE6EBF300089D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB48CA011EE6F35C00089D60 /* FileProviderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProviderViewController.swift; sourceTree = "<group>"; };
+		AB971B171EE7CA0B005113DB /* DragDropTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragDropTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				AB48C9D31EE6EBF300089D60 /* ViewController.swift */,
 				AB48CA011EE6F35C00089D60 /* FileProviderViewController.swift */,
 				AB3E68E21EE6F5DE009AAAE4 /* DemoHomeTableViewController.swift */,
+				AB971B171EE7CA0B005113DB /* DragDropTableViewController.swift */,
 				AB48C9D51EE6EBF300089D60 /* Main.storyboard */,
 				AB48C9D81EE6EBF300089D60 /* Assets.xcassets */,
 				AB48C9DA1EE6EBF300089D60 /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 				AB48C9D41EE6EBF300089D60 /* ViewController.swift in Sources */,
 				AB48CA021EE6F35C00089D60 /* FileProviderViewController.swift in Sources */,
 				AB48C9D21EE6EBF300089D60 /* AppDelegate.swift in Sources */,
+				AB971B181EE7CA0B005113DB /* DragDropTableViewController.swift in Sources */,
 				AB3E68E31EE6F5DE009AAAE4 /* DemoHomeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,7 +10,7 @@ import UIKit
 
 class DemoHomeTableViewController: UITableViewController {
     
-    let demoItems = [["title":"UINavigationBar Large Text","subTitle":"Large text on navigation bar now"],["title":"File Provider API","subTitle":"File Provider API"]]
+    let demoItems = [["title":"UINavigationBar Large Text","subTitle":"Large text on navigation bar now"],["title":"File Provider API","subTitle":"File Provider API"],["title":"Drag Drop","subTitle":"The new drag drop API"]]
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -52,6 +52,8 @@ class DemoHomeTableViewController: UITableViewController {
             self.performSegue(withIdentifier: "largeText", sender: self)
         case 1:
             self.performSegue(withIdentifier: "fileAPI", sender: self)
+        case 2:
+            self.performSegue(withIdentifier: "dragDrop", sender: self)
         default: break
             
         }
